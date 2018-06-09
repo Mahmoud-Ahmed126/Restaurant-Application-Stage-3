@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+  #footer {
+    font-size: 12pt;
+  }
+  #breadcrumb {
+    padding: 10px 40px 16px;
+    font-size: 25px;
+    margin: 0;
+    width: 100%;
+  }
+  #breadcrumb li {
+    font-size: 25px;
+  }
+  #breadcrumb li+li:before {
+    font-size: 20px;
+  }
+}

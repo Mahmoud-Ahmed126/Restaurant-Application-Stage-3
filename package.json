@@ -1,0 +1,50 @@
+{
+  "name": "Restaurant-Reviews",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "include-all": "^1.0.0",
+    "rc": "1.0.1",
+    "sails": "^0.12.13",
+    "sails-disk": "~0.10.9",
+    "babel-core": "^6.26.0",
+    "babelify": "^8.0.0",
+    "browserify": "^15.0.0",
+    "del": "^2.0.2",
+    "es6-promise": "^3.0.2",
+    "idb": "^2.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.9.0",
+    "webpack": "^4.1.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-responsive-images": "^1.10.1",
+    "gulp-grunt": "^0.5.5",
+    "gulp-autoprefixer": "latest",
+    "gulp-csso": "^2.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-sass": "^2.0.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-imagemin": "latest",
+    "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brandy/Restaurant-Reviews.git"
+  },
+  "author": "Brandy Lee Camacho",
+  "linkedIn": "https://www.linkedin.com/in/brandycamacho/",
+  "email": "brandy@udacity.com",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0"
+  }
+}
